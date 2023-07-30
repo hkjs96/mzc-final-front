@@ -29,7 +29,7 @@ export default function Order() {
       productNo:product?.productNo,
     }
 
-    fetch('https://api.goorm.shop/v1/sendmessage', {
+    fetch('https://api.xn--1-3x5ew15b.shop/v1/order', {
       method: 'POST',
       body: JSON.stringify(requestBody),
       headers: {
